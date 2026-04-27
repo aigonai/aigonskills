@@ -5,7 +5,7 @@ description: View and use a skill from the aigonskills index. Use when the user 
 
 # Use a skill
 
-Once you've found a skill via search (see the `explore` skill), here's how to read it, inspect its metadata, and access its files.
+Once you've found a skill via search (see the `asexplore` skill), here's how to read it, inspect its metadata, and access its files.
 
 If the aigonskills MCP server is not installed, see the `install` skill.
 

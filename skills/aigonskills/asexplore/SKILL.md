@@ -1,11 +1,11 @@
 ---
-name: explore
-description: Explore and search the aigonskills index (15,000+ skills). Use when the user asks to "find a skill", "search skills", "explore skills", "what skills are available", "skill for X", or wants to discover skills for a specific purpose.
+name: asexplore
+description: Explore and search the aigonskills index (15,000+ skills). Use when the user asks to "find a skill", "search skills", "explore skills", "asexplore", "what skills are available", "skill for X", or wants to discover skills for a specific purpose.
 ---
 
 # Explore aigonskills
 
-Requires the aigonskills MCP server — see the `install` skill if not connected. To read and access files from a skill you've found, see the `use` skill.
+Requires the aigonskills MCP server — see the `install` skill if not connected. To read and access files from a skill you've found, see the `use` skill. To add a skill as a project reference, see `asadd`.
 
 ## Search
 

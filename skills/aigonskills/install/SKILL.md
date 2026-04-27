@@ -86,4 +86,23 @@ async with sse_client("https://aigonskills.aigon.ai/sse") as (read, write):
 
 After restarting Claude Code, run `/mcp` and confirm `aigonskills` shows as connected. If it does, the MCP tools are available and ready to use.
 
-Once installed, see the `explore` skill to search and discover skills, and the `use` skill to read and access them.
+Once installed, see the `asexplore` skill to search and discover skills, and the `use` skill to read and access them.
+
+## Install the as* management skills
+
+For optimal use of the aigonskills server, install the `as*` skill set as local slash commands. These are available in the aigonskills index — search for source `skloesch/aigonskills`:
+
+```
+call(namespace="aigonskills", function="list", kwargs={"query": "as", "source": "skloesch/aigonskills"})
+```
+
+Then install each one via `asinstall` (or manually download and place in `~/.claude/skills/`):
+
+- `/asexplore` — search and discover skills
+- `/asadd` — add a skill reference to CLAUDE.md/AGENT.md
+- `/asremove` — remove a skill reference
+- `/asrun` — run a referenced skill from remote
+- `/asinstall` — install a skill locally as a slash command
+- `/asuninstall` — remove a locally installed skill
+
+These give you a complete workflow: explore → add/install → run → remove/uninstall.
